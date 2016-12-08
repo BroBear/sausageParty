@@ -1,0 +1,133 @@
+
+/* whole page */
+body{
+  font-family: 'Abril Fatface', cursive;
+}
+/*header*/
+header{
+  background: red;
+  color: white;
+  height:50px;
+  padding: 0 25px;
+}
+
+.small-icon {
+  float:left;
+  background: url("Images/newHotDogIcon.png");
+  height: 35px;
+  width: 35;
+  margin-top: 10px;
+  padding-top: 2px
+
+}
+/*nav bar*/
+#nav-bar {
+  float:right;
+  margin-top: 5px;
+
+}
+
+#nav-bar ul li{
+  display: inline-block;
+  padding: 17px 10px;
+  margin-top: -25px;
+
+}
+
+#nav-bar a{
+  margin:10px;
+  text-decoration: none;
+  color: white;
+}
+
+#nav-bar a:hover{
+  background: black;
+}
+
+/*hero section*/
+#hero {
+  background: url("Images/flameBackground.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+
+#hero h1{
+  text-align: center;
+  color: white;
+}
+#hero img{
+  border: 5px solid yellow;
+  border-radius: 50%;
+  display:block;
+  margin:auto;
+  margin-bottom: 25px;
+}
+
+/*links*/
+.button{
+  background: white;
+  border: 5px solid yellow;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #F44336;
+  padding: 5px 10px;
+
+}
+
+.link {
+  color:black;
+}
+
+.link:hover{
+  color:yellow;
+}
+
+
+/*column section*/
+
+.three-columns {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin: 0 10px;
+  background: #BDBDBD;
+}
+
+
+
+.three-columns img {
+  border-radius: 50%;
+  border: 3px solid black;
+  height: 200px;
+  width: 200px;
+  margin: 25px 0;
+}
+
+
+.three-columns p {
+  margin-bottom: 40px;
+  padding: 0 10px;
+}
+/*footer*/
+footer {
+  background: #F44336;
+  margin-top: 30px;
+  padding:40px;
+  text-align: center;
+  color: white;
+}
+
+footer ul{
+  margin:30px 0;
+}
+
+footer li{
+  display: inline-block;
+  margin-right: 0 30px;
+}
